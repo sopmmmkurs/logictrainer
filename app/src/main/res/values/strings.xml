@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Logic Trainer</string>
+    <string name="start_game">Начать игру</string>
+    <string name="level_label">Уровень: %1$d</string>
+    <string name="time_label">Время: %1$d c</string>
+    <string name="time_up">Время вышло!</string>
+    <string name="puzzle_piece_desc">Пазл фигура</string>
+</resources>

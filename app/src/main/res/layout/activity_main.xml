@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_cyberpunk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Текстовое поле для информации о пользователе -->
+    <TextView
+        android:id="@+id/userInfoTextView"
+        android:text="Информация о пользователе"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Кнопка для старта игры -->
+    <Button
+        android:id="@+id/startGameButton"
+        android:text="@string/start_game"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- Кнопка выхода -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:text="Выйти"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
